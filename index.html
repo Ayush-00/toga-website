@@ -1,47 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="TOGA">
-  <meta property="og:title" content="TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision"/>
-  <meta property="og:description" content="TOGA ICCV 2025"/>
-  <meta property="og:url" content="YOUR_PROJECT_URL"/>
-  <meta property="og:image" content="static/images/your_banner_image.png"/>
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
-
-
-  <meta name="twitter:title" content="TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision">
-  <meta name="twitter:description" content="TOGA ICCV 2025">
-  <meta name="twitter:image" content="static/images/your_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="keywords" content="Video Question Answering, Temporal Grounding, Weak Supervision, Vision-Language Models, Deep Learning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision - Ayush Gupta, Anirban Roy, et al.</title>
+  <meta name="title" content="TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision - Ayush Gupta, Anirban Roy, Rama Chellappa, et al.">
+  <meta name="description" content="TOGA is a vision-language model for Temporally Grounded Open-Ended Video Question Answering that operates in a weakly supervised setup without requiring temporal annotations.">
+  <meta name="keywords" content="video question answering, videoqa, temporal grounding, weak supervision, computer vision, large language models, VLM, LLM, deep learning, AI, ICCV">
+  <meta name="author" content="Ayush Gupta, Anirban Roy, Rama Chellappa, Nathaniel D. Bastian, Alvaro Velasquez, Susmit Jha">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="SRI">
+  <meta property="og:title" content="TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision">
+  <meta property="og:description" content="TOGA is a vision-language model for Temporally Grounded Open-Ended Video Question Answering that operates in a weakly supervised setup without requiring temporal annotations.">
+  <meta property="og:url" content="https://ayush-00.github.io/toga/">
+  <meta property="og:image" content="https://ayush-00.github.io/toga/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="TOGA Research Preview">
+  <meta property="article:published_time" content="2025-06-11T00:00:00.000Z">
+  <meta property="article:author" content="Ayush Gupta">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="VideoQA">
+  <meta property="article:tag" content="Temporal Grounding">
 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@SRI_Intl">
+  <meta name="twitter:creator" content="@YOUR_TWITTER_HANDLE">
+  <meta name="twitter:title" content="TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision">
+  <meta name="twitter:description" content="TOGA is a vision-language model for Temporally Grounded Open-Ended Video Question Answering that operates in a weakly supervised setup without requiring temporal annotations.">
+  <meta name="twitter:image" content="https://ayush-00.github.io/toga/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="TOGA Research Preview">
 
-  <title>TOGA ICCV 2025</title>
-  <link rel="icon" type="image/x-icon" href="static/images/your_icon.png">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <meta name="citation_title" content="TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision">
+  <meta name="citation_author" content="Gupta, Ayush">
+  <meta name="citation_author" content="Roy, Anirban">
+  <meta name="citation_author" content="Chellappa, Rama">
+  <meta name="citation_author" content="Bastian, Nathaniel D.">
+  <meta name="citation_author" content="Velasquez, Alvaro">
+  <meta name="citation_author" content="Jha, Susmit">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_conference_title" content="Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2506.09445.pdf">
+  
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <title>TOGA - Ayush Gupta et al. | Academic Research</title>
+  
+  <link rel="icon" type="image/x-icon" href="static/images/framework.png">
+  <link rel="apple-touch-icon" href="static/images/apple-touch-icon.png">
+  
   <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
 </head>
 <body>
 
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
 
+  <main id="main-content">
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
@@ -49,57 +101,74 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision</h1>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">
-                <a href="#" target="_blank">Ayush Gupta</a><sup>1,2</sup>,</span>
-                <span class="author-block">
-                  <a href="#" target="_blank">Anirban Roy</a><sup>1</sup>,</span>
-                <span class="author-block">
-                  <a href="#" target="_blank">Rama Chellappa</a><sup>2</sup>,
-                </span>
-                <span class="author-block">
-                    <a href="#" target="_blank">Nathaniel D. Bastian</a><sup>3</sup>,
-                </span>
-                <span class="author-block">
-                    <a href="#" target="_blank">Alvaro Velasquez</a><sup>1</sup>,
-                </span>
-                <span class="author-block">
-                    <a href="#" target="_blank">Susmit Jha</a><sup>1</sup>
-                </span>
+              <span class="author-block"><a href="https://ayush-00.github.io/" target="_blank">Ayush Gupta</a><sup>1,2</sup>,</span>
+              <span class="author-block"><a href="https://nusci.csl.sri.com/author/anirban-roy/" target="_blank">Anirban Roy</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://engineering.jhu.edu/faculty/rama-chellappa/" target="_blank">Rama Chellappa</a><sup>2</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Nathaniel D. Bastian</a><sup>3</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Alvaro Velasquez</a><sup>4</sup>,</span>
+              <span class="author-block"><a href="https://susmitjha.github.io/" target="_blank">Susmit Jha</a><sup>1</sup></span>
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>SRI, <sup>2</sup>Johns Hopkins University, <sup>3</sup>United States Military Academy<br>ICCV 2025</span>
+              <span class="author-block"><sup>1</sup>SRI, <sup>2</sup>Johns Hopkins University, <sup>3</sup>United States Military Academy, <sup>4</sup>University of Colorado Boulder<br>ICCV 2025</span>
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <a href="#" target="_blank"
+                  <a href="static/pdfs/ICCV TOGA validated.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="fab fa-github"></i>
+                    <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Code (Coming Soon)</span>
+                  <span>Paper</span>
                 </a>
               </span>
 
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2506.09445" target="_blank"
-                class="external-link button is-normal is-rounded is-dark">
-                <span class="icon">
-                  <i class="ai ai-arxiv"></i>
-                </span>
-                <span>arXiv</span>
-              </a>
+            <span class="link-block">
+              <a href="Coming Soon" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </span>
+
+          <span class="link-block">
+            <a href="https://arxiv.org/abs/2506.09445" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
             </span>
-            </div>
-          </div>
+            <span>arXiv</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video Presentation</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/F7_mPJaCBCc" 
+                  title="YouTube video player" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -108,7 +177,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We address the problem of video question answering (video QA) with temporal grounding in a weakly supervised setup, without any temporal annotations. Given a video and a question, we generate an open-ended answer grounded with the start and end time. For this task, we propose TOGA: a vision-language model for Temporally Grounded Open-Ended Video QA with Weak Supervision. We instruct-tune TOGA to jointly generate the answer and the temporal grounding. We operate in a weakly supervised setup where the temporal grounding annotations are not available. We generate pseudo labels for temporal grounding and ensure the validity of these labels by imposing a consistency constraint between the question of a grounding response and the response generated by a question referring to the same temporal segment. We notice that jointly generating the answers with the grounding improves performance on question answering as well as grounding. We evaluate TOGA on grounded QA and open-ended QA tasks. For grounded QA, we consider the NEXT-GQA benchmark. For open-ended QA, we consider the MSVD-QA and ActivityNet-QA benchmarks. We achieve state-of-the-art performance for both tasks on these benchmarks.
+            We address the problem of video question answering (video QA) with temporal grounding in a weakly supervised setup, without any temporal annotations. Given a video and a question, we generate an open-ended answer grounded with the start and end time. For this task, we propose TOGA: a vision-language model for Temporally Grounded Open-Ended Video QA with Weak Supervision. We instruct-tune TOGA to jointly generate the answer and the temporal grounding. We operate in a weakly supervised setup where the temporal grounding annotations are not available. We generate pseudo labels for temporal grounding and ensure the validity of these labels by imposing a consistency constraint between the question of a grounding response and the response generated by a question referring to the same temporal segment. We notice that jointly generating the answers with the grounding improves performance on question answering as well as grounding. We evaluate TOGA on grounded QA and open-ended QA tasks and achieve state-of-the-art performance on benchmarks for both tasks.
           </p>
         </div>
       </div>
@@ -116,184 +185,195 @@
   </div>
 </section>
 
-<section class="hero is-small">
-    <div class="hero-body">
-      <div class="container">
-        <h2 class="subtitle has-text-centered">
-          TOGA generates open-ended answers and grounds them with start and end times in the video.
-        </h2>
-      </div>
-    </div>
-</section>
-
 <section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <h2 class="title is-3 has-text-centered">Overview of TOGA</h2>
-        <figure class="image">
-          </figure>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <p class="has-text-justified">
-          Our VLM framework consists of four main modules: 1) a frozen vision encoder to compute frame-wise features, 2) a frozen large-language text encoder to compute text features from questions, 3) a multi-scale vision-language connector (MS-VLC) to align vision and text features, and 4) a large-language text decoder that we train to generate open-ended answers with grounding. The MS-VLC processes video features at two temporal resolutions: a sparse scale to capture low-frequency, long-term cues and a dense scale to capture high-frequency, short-term cues. This multi-scale approach is crucial for accurately grounding both long and short events. The language decoder is instruction-tuned to jointly generate the answer and its temporal grounding in the format: `Answer [start time, end time]`.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <h2 class="title is-3 has-text-centered">Multi-Stage Weakly Supervised Training</h2>
-        <figure class="image">
-          </figure>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <p class="has-text-justified">
-            Since ground-truth temporal annotations are expensive and often unavailable, we train TOGA in a weakly supervised, multi-stage process.
-            <br><b>1. Vision-Text Alignment:</b> First, we train only the MS-VLC module to align the video and text features using diverse data like video captions and general QA pairs.
-            <br><b>2. Instruction Tuning with Pseudo-Labels:</b> Next, we train the model to understand and generate temporal groundings. We create pseudo-labels by taking video segments, generating descriptions for them, and using these descriptions and segment times as noisy training data.
-            <br><b>3. Consistency Constraint:</b> Finally, to refine grounding accuracy, we enforce a consistency constraint. For a generated answer like `The boy is running [10, 20]`, we create a corresponding question, `What is happening in [10, 20]?`, and train the model to produce a consistent answer (`A boy in a red shirt is running`). This self-consistency helps the model learn to ground answers accurately without explicit labels.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3 has-text-centered">Evaluation</h2>
-      <div class="content has-text-justified">
-        <p>
-          We evaluate TOGA on challenging benchmarks for both grounded and open-ended video QA. For <b>grounded video QA</b>, we use NEXT-GQA and ReXTime, which feature long videos with complex causal and temporal questions. We use metrics like Intersection over Union (IoU) and IoU@0.5 to measure grounding accuracy, and Acc@GQA, which evaluates both the correctness of the answer and the grounding. For <b>open-ended video QA</b>, we use the MSVD-QA and ActivityNet-QA datasets. Here, we measure performance by using an LLM (GPT-3.5-turbo) to compare our model's generated answer with the ground truth, calculating both an accuracy score and a quality score from 1 to 5.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <h2 class="title is-3 has-text-centered">Results</h2>
-        <figure class="image">
-            <h2 class="subtitle has-text-centered">
-              TOGA achieves state-of-the-art results on the NEXT-GQA benchmark for weakly supervised grounded video QA.
-            </h2>
-        </figure>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <p class="has-text-justified">
-           Our main results show that TOGA significantly outperforms existing methods on both grounded and open-ended QA tasks. On NEXT-GQA, TOGA sets a new state-of-the-art on all grounding metrics, even though our open-ended setup is more challenging than the multiple-choice format used by prior work. We also achieve top performance on the MSVD-QA and ActivityNet-QA benchmarks, demonstrating the effectiveness of our multi-scale architecture for general video understanding. These results highlight the benefits of jointly generating answers and groundings and leveraging a multi-scale approach to capture temporal features.
-        </p>
-      </div>
-    </div>
-
-    <div class="columns is-centered" style="margin-top: 2rem;">
-        <div class="column is-full">
-          <h3 class="title is-4 has-text-centered">Qualitative Examples</h3>
-          <figure class="image">
-              <h2 class="subtitle has-text-centered">
-                Qualitative results on NEXT-GQA showing both causal and temporal questions.
-              </h2>
-          </figure>
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column">
+                <h2 class="title is-3">Motivation</h2>
+                <div class="content">
+                    <p>
+                        Current Video Question Answering (VideoQA) systems are becoming increasingly powerful, but they often struggle with two key challenges. First, they typically require expensive, manually-created temporal annotations (timestamps) to learn how to locate evidence for an answer within a video. Second, many systems are limited to multiple-choice questions rather than generating free-form, open-ended answers.
+                    </p>
+                    <p>
+                        This work tackles these limitations by proposing a framework for grounded VideoQA that operates under <strong>weak supervision</strong>—meaning it learns to ground answers in time without ever seeing ground-truth timestamps during training. Our approach is designed for long videos with complex questions about actor interactions and temporal event ordering, and it generates open-ended, natural language answers.
+                    </p>
+                    <div class="has-text-centered">
+                     <img src="static/images/Teaser figure.png" alt="Example of TOGA answering questions about a video with temporal grounding." loading="lazy"/>
+                    </div>
+                    <p class="has-text-centered"><em>TOGA takes a video and an open-ended question, and outputs a free-form answer along with the corresponding start and end times in the video.</em></p>
+                </div>
+            </div>
         </div>
-      </div>
-  </div>
+    </div>
 </section>
+
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column">
+                <h2 class="title is-3">Methodology</h2>
+                <div class="content">
+                    <p>
+                        Our model, TOGA, is a Vision-Language Model (VLM) composed of four main modules: a frozen vision encoder, a frozen text encoder, a trainable <strong>Multi-Scale Vision-Language Connector (MS-VLC)</strong>, and a trainable language decoder. The key to our approach lies in the MS-VLC and our multi-stage training strategy.
+                    </p>
+                    <ul>
+                        <li><strong>Multi-Scale Vision-Language Connector (MS-VLC):</strong> This module processes video frames at two different temporal resolutions: a <strong>sparse scale</strong> (low frame rate) to capture long-term context and a <strong>dense scale</strong> (high frame rate) to capture fine-grained, short-term actions. This allows the model to effectively ground both long and short events.</li>
+                        <li><strong>Weakly Supervised Multi-Stage Training:</strong> Since we don't have grounding annotations, we train TOGA in three stages.
+                            <ol>
+                                <li><strong>Vision-Text Alignment:</strong> We first train the MS-VLC to align video features with text descriptions.</li>
+                                <li><strong>Instruction Tuning with Pseudo-Labels:</strong> We generate noisy "pseudo-labels" for grounding by describing short clips from videos. We use these to teach the model the format of a grounded answer (e.g., "Answer [start, end]").</li>
+                                <li><strong>Consistent Grounding:</strong> To refine the noisy labels, we enforce a <strong>consistency constraint</strong>. For a generated answer like "a boy is running [10, 20]", we check if the answer to a follow-up question, "What is happening in [10, 20]?", is also "a boy is running". This self-correction mechanism allows the model to learn accurate grounding without explicit labels.</li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <div class="has-text-centered">
+                     <img src="static/images/framework.png" alt="Overview of the TOGA architecture" loading="lazy"/>
+                    </div>
+                     <p class="has-text-centered"><em>The TOGA framework uses a multi-scale connector to process video features and a multi-stage training strategy with a consistency constraint to learn grounding without temporal annotations.</em></p>
+                    
+                    <div class="has-text-centered">
+                     <img src="static/images/consistency.png" alt="Diagram of the consistency framework for weak supervision" loading="lazy"/>
+                    </div>
+                     <p class="has-text-centered"><em>Our consistency framework for training without temporal annotations. We generate pseudo-labels by captioning random video clips and then filter noisy ones by enforcing consistency between the model's response to a grounding question and a referring question for the same time segment.</em></p>
+                
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <h2 class="title is-3">Results</h2>
+        <div class="content">
+            <p>
+                We evaluated TOGA on several challenging benchmarks for both grounded and open-ended VideoQA. Our method achieves state-of-the-art performance, outperforming previous approaches in both settings.
+            </p>
+            <p>
+                On the <strong>NEXT-GQA</strong> dataset for weakly supervised grounded QA, TOGA surpasses existing methods on all grounding metrics, such as mIoU and mIoP. Notably, it achieves this while operating in a more difficult open-ended setup, where the model generates answers from scratch instead of selecting from provided options.
+            </p>
+             <img src="static/images/nextgqa results.png" alt="Table of results on the NEXT-GQA benchmark" loading="lazy"/>
+            <p class="has-text-centered"><em>Comparison with state-of-the-art on NEXT-GQA. TOGA achieves the best performance on grounding metrics in a challenging open-ended evaluation setting.</em></p>
+            <p>
+                For open-ended QA on the <strong>MSVD-QA</strong> and <strong>ActivityNet-QA</strong> datasets, TOGA also sets a new state of the art, demonstrating its strong capabilities in generating accurate, free-form answers.
+            </p>
+            <img src="static/images/vqa results.png" alt="Table of results for open-ended QA benchmarks" loading="lazy"/>
+            <p class="has-text-centered"><em>TOGA outperforms existing methods on both accuracy and score metrics for open-ended VideoQA.</em></p>
+        </div>
+    </div>
+</section>
+
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <h2 class="title is-3">Ablation Studies</h2>
+        <div class="content">
+            <p>
+                We conducted several ablation studies to validate our key design choices:
+            </p>
+            <ul>
+                <li><strong>Multi-Scale vs. Single-Scale Connector:</strong> We found that the MS-VLC significantly outperforms models using only a sparse or only a dense scale. The multi-scale approach is particularly effective for grounding very short and very long events, where single-scale models struggle.</li>
+
+                <div class="has-text-centered">
+              <img src="static/images/connector scale ablation.png" alt="Table comparing multi-scale vs single-scale performance" loading="lazy" width="75%"/>
+              </div>
+              <p class="has-text-centered"><em>The multi-scale (MS-VLC) model achieves the best grounding performance (IoU), especially for short and long duration events.</em></p>
+
+                <li><strong>Impact of Consistency Constraint:</strong> Removing the final training stage with the consistency constraint causes a massive drop in performance (mIoU falls from 24.4 to 12.1). This demonstrates that our consistency check is crucial for learning accurate grounding from noisy pseudo-labels.</li>
+
+                <li><strong>Analysis of Question Types:</strong> We analyzed performance on different question types in NEXT-GQA. The model finds temporal questions (especially those about past or future events) more difficult than causal ("why/how") questions, as they require more complex reasoning about the sequence of events.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <h2 class="title is-3">Qualitative Examples</h2>
+        <div class="content">
+            <p>
+                We provide several qualitative examples to illustrate TOGA's performance. The model is capable of generating correct answers and accurately grounding them in the video for a variety of complex causal and temporal questions. Due to its open-ended nature, TOGA sometimes generates answers that are semantically equivalent but not an exact string match to the ground truth.
+            </p>
+
+            <div class="has-text-centered">
+             <img src="static/images/nextgqa successes.png" alt="Qualitative examples on the NEXT-GQA dataset" loading="lazy"/>
+            </div>
+             <p class="has-text-centered"><em>Qualitative results on the NEXT-GQA dataset. TOGA provides grounded answers for both temporal  and causal questions. Ground truth segments are in green, and TOGA's predictions are in yellow.</em></p>
+
+            <!-- <div class="has-text-centered">
+              <img src="static/images/qualitative_msvdqa.png" alt="Qualitative examples on the MSVD-QA dataset" loading="lazy"/>
+            </div>
+              <p class="has-text-centered"><em>Examples from the MSVD-QA dataset for open-ended QA. The model often generates correct answers that are synonyms or more descriptive than the ground truth, highlighting its strong language understanding capabilities.</em></p>
+            
+            <div class="has-text-centered">
+              <img src="static/images/failure_cases.png" alt="Examples of failure cases" loading="lazy"/>
+            </div>
+              <p class="has-text-centered"><em>Analysis of failure cases. In some instances, the model's response is relevant but not the precise ground truth answer, a challenge inherent in open-ended generation. In other cases, grounding can be inaccurate, which can be attributed to the noisy pseudo-labels used in our weakly supervised training setup.</em></p> -->
+        </div>
+    </div>
+</section>
+
 
 
 <section class="section">
   <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <h2 class="title is-3 has-text-centered">Ablations</h2>
-        <figure class="image">
-            </figure>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <p class="has-text-justified">
-            We performed several ablation studies to validate our design choices.
-            <br> • <b>Multi-Scale Connector (MS-VLC):</b> We compared our multi-scale (sparse + dense) approach to single-scale variants (sparse-only or dense-only). The results show that the MS-VLC is superior, particularly for grounding very short and very long events, confirming that capturing features at multiple temporal resolutions is critical for performance.
-            <br> • <b>Consistency Constraint:</b> To measure the impact of our final training stage, we trained a model variant without the consistency constraint. This model achieved an mIoU of only 12.1 on NEXT-GQA, a significant drop from the 24.4 achieved by the full TOGA model. This demonstrates that enforcing consistency is essential for learning accurate grounding in a weakly supervised setting.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Video Presentation (Placeholder)</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster (Placeholder)</h2>
-
-      <iframe  src="#" width="100%" height="550">
+    <div class="columns is-centered has-text-centered"> 
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Poster</h2>
+        <div class="content">
+          <iframe src="static/pdfs/TOGA Poster ICCV.pdf" width="100%" height="500px" style="border:1px solid #ddd;">
           </iframe>
-        
+          <p class="mt-2">
+            <a href="static/pdfs/TOGA Poster ICCV.pdf" class="button is-link" download>
+              <span class="icon is-small">
+                <i class="fas fa-download"></i>
+              </span>
+              <span>Download Poster</span>
+            </a>
+          </p>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>
-@inproceedings{gupta2025iccv,
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@inproceedings{Gupta2025TOGA,
   title={TOGA: Temporally Grounded Open-Ended Video QA with Weak Supervision},
   author={Gupta, Ayush and Roy, Anirban and Chellappa, Rama and Bastian, Nathaniel D. and Velasquez, Alvaro and Jha, Susmit},
-  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
-  year={2025}
-}
-      </code></pre>
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year={2025},
+  url={https://arxiv.org/abs/2506.09445}
+}</code></pre>
     </div>
 </section>
+
 <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
 
+  </main>
 </body>
 </html>
